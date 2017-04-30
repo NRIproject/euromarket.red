@@ -66,4 +66,8 @@ $(document).ready(function(){
     $("#close_contacts").click(function () {
         $("#how_to_buy").attr("hidden", "hidden");
     });
+
+    $("#button_start").click(function(){
+        $(".global_head").css({"top": "-100%"});
+    });
 });
