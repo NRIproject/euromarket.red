@@ -1,5 +1,6 @@
 $(document).ready(function(){
     $(".global_head").fitText(8.0);
+    $("#button_start").fitText(1.0);
 	
     $("#i_customer").fitText(6.0);
     $("#i_order").fitText(6.0);
@@ -21,7 +22,7 @@ $(document).ready(function(){
 	
     $("#how_to_buy").fitText(5.0);
 	
-    $("#allProd").fitText(4.0);
+    $("#allProd").fitText(9.5);
 	
     $(".contacts").fitText(2.0);
 	

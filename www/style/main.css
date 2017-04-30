@@ -6,8 +6,7 @@ body
 {
     margin: 0;
     background-color: #ffcc66;
-	width: 100%;
-	height: 100%;
+    overflow: hidden;
 }
 
 #allProd{
@@ -60,11 +59,15 @@ body
 }
 .global_head
 {
+    position: absolute;
 	display: block;
-	margin-top: -2.5%;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 1;
     background-image: url(bg.png);
-	background-size: 100%;
-	padding-bottom: 20%;
+	background-size: cover;
+    transition: ease 0.5s;
   }
 
 
@@ -99,11 +102,30 @@ body
 
 }
 
+#button_start{
+    display: block;
+    margin-top: 5%;
+    margin-left: 42%;
+    font-weight: 900;
+    text-align: center;
+    width: 10%;
+    padding: 0.8%;
+    color: white;
+    border: solid;
+    background-color: rgba(64, 64, 64, 0.54);
+    transition: ease 0.5s;  
+}
+
+#button_start:hover{
+    box-shadow: #A5A5A5 0 0 15px;
+    background-color: rgba(183, 164, 60, 0.83);
+    cursor:pointer;
+}
+
 #information_block
 {
     display: block;
     width: 100%;
-    margin-top: 5%;
     background-color: #404040;
 }
 
@@ -136,10 +158,12 @@ body
     padding-left: 5%;
     border-right: solid 5px #f38a00;
     cursor: default;
+    transition: ease 0.5s;
 }
 .menu_ul li:hover
 {
     text-decoration: underline;
+    border-right: solid 50px #f38a00;
 }
 
 #information_is
@@ -357,10 +381,18 @@ body
 
 #down
 {
-    width: 100%;
-    height: 3%;
-    margin: 2% 0 0 0;
-    background-color: #4A4846;
-    color: #E0DAD4;
+    display: block;
+    background-color: #101010;
     text-align: center;
+    color: #E0DAD4;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.back_view{
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    position: absolute;
 }
