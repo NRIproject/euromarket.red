@@ -4,24 +4,24 @@
 <head>
     <title>Интернет-магазин "EuroMarket"</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../style/main.css">
-    <link rel="stylesheet" href="../style/menu.css">
-    <link rel="stylesheet" href="../style/catalog.css">
-    <link rel="stylesheet" href="../style/content.css">
-    <link rel="stylesheet" href="../style/error.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/menu.css">
+    <link rel="stylesheet" href="style/catalog.css">
+    <link rel="stylesheet" href="style/content.css">
+    <link rel="stylesheet" href="style/error.css">
 
-    <script src="../scripts/jquery.js"></script>
-    <script src="../scripts/search.js"></script>
-    <script src="../scripts/jquery.fittext.js"></script>
-    <script src="../scripts/content.js"></script>
-    <script src="../scripts/admin.js"></script>
-    <script src="../scripts/image_crop.js"></script>
-    <script src="../scripts/imgarea.js"></script>
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/search.js"></script>
+    <script src="scripts/jquery.fittext.js"></script>
+    <script src="scripts/content.js"></script>
+    <script src="scripts/admin.js"></script>
+    <script src="scripts/image_crop.js"></script>
+    <script src="scripts/imgarea.js"></script>
 
 </head>
 <body>
 
-<a href="../index.php">Ссылка на главную страницу</a>
+<a href="index.php">Ссылка на главную страницу</a>
 
 <div id="administration_panel">
 
