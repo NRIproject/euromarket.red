@@ -13,6 +13,7 @@
     <script src="scripts/search.js"></script>
     <script src="scripts/jquery.fittext.js"></script>
     <script src="scripts/content.js"></script>
+    <script src="style/adaptText.js"></script>
 
 </head>
 <body>
@@ -25,9 +26,10 @@
             Интернет-магазин "Euromarket" предоставляет широкий спектр техники для Вашего дома.
             У нас Вы сможете найти и заказать высококачественную бытовую техникку известных мировых брендов.</p>
     </div>
+    <div id="button_start">Войти</div>
 </div>
 
-
+<div class="back_view">
 <div id="information_block">
 
     <div id="information_choose">
@@ -42,10 +44,6 @@
 
     <div id="information_is">
 
-        <div id="i_none">
-            <img src="resources/logotype.png" id="none_chosen">
-
-        </div>
         <div id="i_customer" hidden="hidden">
             <img src="resources/logotype.png" id="none_chosen">
             <h4 class="i_header">Информация для покупателей</h4>
@@ -137,5 +135,6 @@
 
 <div id="down">
     <p class="down_designed">EUROMARKET.UA. Designed by "Project143"</p></div>
+</div>
 </body>
 </html>
