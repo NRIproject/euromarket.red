@@ -1,0 +1,146 @@
+.info_link
+{
+    color: #404040;
+    text-decoration: none;
+}
+.info_link:hover
+{
+    text-decoration: underline;
+}
+
+.information_main_title
+{
+    text-align: center;
+    font-size: 350%;
+    color: #4A4846;
+}
+.info_title
+{
+    text-align: center;
+    font-size: 200%;
+    text-shadow: 0 0 2px #404040;
+}
+.info_text
+{
+    text-align: justify;
+    font-weight: 400;
+}
+.description_text
+{
+    text-align: justify;
+    font-size: 100%;
+}
+
+
+.content_left
+{
+    padding-left: 5%;
+    width: 35%;
+    height: 50%;
+    float: left;
+    display: inline-table;
+
+}
+.content_right
+{
+    padding-right: 3%;
+    width: 50%;
+	margin-top: 3%;
+    display: inline-table;
+}
+
+#about_us, #buy, #deliver, #garant
+{
+    width: 86%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 50%;
+    padding-left: 5%;
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #404040;
+    color: #E0DAD4;
+    background-color: #4A4846;
+    font-size: 100%;
+}
+#garant
+{
+    margin-bottom: 10%;
+}
+.rules_to_buy
+{
+    padding: 0;
+    list-style-type: none;
+}
+
+.contacts
+{
+    padding-left: 50%;
+    list-style-type: none;
+}
+.contacts .c_li
+{
+    font-size: 110%;
+}
+
+
+.all_production
+{
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    background-color: #404040;
+    color: #A5A5A5;
+}
+.all_production .image_container
+{
+    width: 3%;
+}
+.all_production tr:hover
+{
+
+    background-color: #6a6a6a;
+}
+.all_production a:hover
+{
+    color: #f38a00;
+    font-weight: 800;
+}
+.all_production tr a
+{
+    color: #f38a00;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.all_production .production_name
+{
+    width: 30%;
+    font-size: 140%;
+}
+
+.all_production .production_price
+{
+    width: 3%;
+
+}
+.all_production img
+{
+    width: 75%;
+}
+
+.all_title
+{
+    text-align: center;
+    font-size: 140%;
+    color: #404040;
+}
+
+.allin
+{
+    height: auto;
+    margin-bottom: 10%;
+}
+

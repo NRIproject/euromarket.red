@@ -1,0 +1,57 @@
+#navigation /**Блок панели нафигации**/
+{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    display: block;
+    height: 44px;
+}
+
+.nav_title /** текст в заголовке **/
+{
+    float: left;
+    margin-left: 4%;
+    margin-right: 0.5%;
+    width: 28%;
+    text-align: center;
+    color: #E0DAD4;
+    display: inline-block;
+
+}
+.nav_global_a:hover
+{
+    color: #A6ABA5;
+}
+.nav_title a
+{
+    display: block;
+    text-decoration: none;
+    background-color: #404040;
+    color: white;
+    font-size: 100%;
+    padding: 3%;
+
+}
+.nav_sub
+{
+    position: absolute;
+    padding: 0;
+    margin-top: 0;
+    list-style: none;
+    display: none;
+    font-size: 80%;
+    width: 28%;
+}
+
+.nav_sub .nav_li
+{
+    background-color: #6a6a6a;
+    color: white;
+}
+.nav_sub .nav_li:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #A5A5A5;
+    display: block;
+    color: white;
+}

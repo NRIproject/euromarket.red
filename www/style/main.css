@@ -1,0 +1,366 @@
+*{
+    font-family: verdana;
+}
+
+body
+{
+    margin: 0;
+    background-color: #ffcc66;
+	width: 100%;
+	height: 100%;
+}
+
+#allProd{
+	display: block;
+	margin: auto;
+	width: 92%;
+    height: auto;
+	text-align: center;
+	background: #212121;
+	margin-bottom: 3%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+}
+
+#allProd:hover{
+	background: #1a1919;
+}
+
+#allProd a{
+	color: white;
+	text-decoration: none;
+}
+
+#info_table .char_k{
+	margin-right: 5%;
+}
+
+#descript:hover{
+	background: #7e7e7e;
+}
+
+#tab:hover{
+	background: #7e7e7e;
+}
+
+
+#none_chosen
+{
+    z-index: 1;
+    position: absolute;
+    width: 50%;
+    opacity: 0.1;
+}
+
+.contact_header
+{
+    text-align: center;
+    text-decoration: underline;
+
+}
+.global_head
+{
+	display: block;
+	margin-top: -2.5%;
+    background-image: url(bg.png);
+	background-size: 100%;
+	padding-bottom: 20%;
+  }
+
+
+#logoMain{
+    width: 40%;
+    margin-left: 30%;
+}
+
+
+
+.global_text
+{
+    text-align: center;
+    color: white;
+	width: 50%;
+	margin-left: 22%;
+	text-shadow: 3px 4px 4px black, 0 0 1em white;
+}
+.start_image
+{
+    margin-left: 40%;
+    width: 15%;
+	margin-top: 15%;
+    border-radius: 100%;
+    border: solid 10px white;
+    box-shadow: #A5A5A5 0 0 15px;
+}
+
+.global_infortmation_headers
+{
+    text-align: center;
+
+}
+
+#information_block
+{
+    display: block;
+    width: 100%;
+    margin-top: 5%;
+    background-color: #404040;
+}
+
+
+#information_choose
+{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 20%;
+    background-color: #404040;
+
+}
+
+.menu_ul
+{
+    display: inline-block;
+    width: 100%;
+    color: white;
+    margin-bottom: 10%;
+
+
+}
+.menu_ul li
+{
+    margin-top: 10%;
+    list-style-type: none;
+    font-size: 150%;
+    text-align: end;
+    padding-left: 5%;
+    border-right: solid 5px #f38a00;
+    cursor: default;
+}
+.menu_ul li:hover
+{
+    text-decoration: underline;
+}
+
+#information_is
+{
+    display: inline-block;
+    width: 60%;
+	margin-right: 10%;
+	margin-top: 2%;
+	float: right;
+    color: white;
+}
+#i_customer, #i_order, #i_delivering, #i_buying, #i_garants
+{
+    position: relative;
+    z-index: 2;
+    font-size: large;
+    margin: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+}
+#i_order
+{
+    list-style-type: none;
+}
+.button_up_img
+{
+    position: fixed;
+    width: 2%;
+    margin-left: 97%;
+    margin-top: 44%;
+    margin-bottom: 4%;
+}
+.button_up_img:hover
+{
+    opacity: 0.2;
+}
+.title /*оформление заголовка*/
+{
+    text-align: center;
+	color: #404040;
+}
+#logotype /*оформление логотипа сайта*/
+{
+    width: 100%;
+}
+.logotype_img /*изображение логотипа*/
+{
+    margin-top: 2%;
+    margin-left: 3.5%;
+    width: 55.5%;
+}
+
+.icons /*оформление иконок в контактной информации*/
+{
+    margin-left: 6%;
+    width: 6%;
+}
+
+#description /*блок описания*/
+{
+    margin-left: 4%;
+    display: inline-table;
+    width: 50%;
+}
+
+#contact_info /*блок контактной информации*/
+{
+
+    display: inline-table;
+    margin-left: 15%;
+    width: 30%;
+}
+
+#search /*блок поиска*/
+{
+    display: block;
+    margin: 4% 4% 0 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background: #404040;
+    width: 92%;
+}
+
+
+.search_title /*заголовок в поиске*/
+{
+    color: white;
+}
+.firm /*блок фильтр по фирме*/
+{
+    text-align: center;
+    display: inline-block;
+    width: 25%;
+}
+.kind /*блок фильтр по категории товара*/
+{
+    text-align: center;
+    display: inline-block;
+    width: 25%;
+}
+
+#select_firm, #select_kind /*окно выбора <select>*/
+{
+    margin-left: 5%;
+    display: block;
+    border-style: none;
+    color: white;
+    width: 100%;
+    height: 40px;
+    background: #6a6a6a;
+}
+
+.search_name /*блок поиска по названию*/
+{
+    margin-left: 4%;
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+}
+#search_by_name /*поле для ввода названия*/
+{
+    border-style: none;
+    background: #6a6a6a;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 100%;
+    height: 40px;
+}
+
+.price /*блок поиска по цене*/
+{
+    margin-left: 4%;
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+
+}
+
+.price_holder /*панель выбора цены*/
+{
+    margin-left: 4%;
+    display: inline;
+    width: 3%;
+}
+
+.by_price /*поле выбора цен*/
+{
+    width: 40%;
+    height: 38px;
+    border-style: none;
+    color: white;
+    background: #6a6a6a;
+}
+#searching /*кнопка поиска*/
+{
+    display: block;
+    border-style: none;
+    width: 98%;
+    height: 40px;
+    margin: 1%;
+    color: white;
+    background: #6a6a6a;
+}
+.search_title /*заголовок поиска */
+{
+    text-align: center;
+}
+
+
+/*настройка адаптивности сайта*/
+@media(max-width: 1400px){
+
+
+    p{
+        font-size: 70%;
+    }
+
+    h3{
+        font-size: 80%;
+    }
+
+    div #contacts2{
+        top: 15%;
+        font-size: 90%;
+    }
+
+    #filter{
+        height: 32%;
+    }
+
+}
+
+@media(max-width: 600px){
+    .search_name{
+        width: 90%;
+    }
+
+    .firm{
+        width: 90%;
+    }
+
+    .kind{
+        width: 90%;
+    }
+
+    .price{
+        width: 90%;
+        margin: 3%;
+    }
+}
+
+
+#down
+{
+    width: 100%;
+    height: 3%;
+    margin: 2% 0 0 0;
+    background-color: #4A4846;
+    color: #E0DAD4;
+    text-align: center;
+}

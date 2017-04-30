@@ -1,0 +1,172 @@
+#catalog
+{
+    margin-top: 2%;
+    height: 200%;
+}
+
+tbody {
+	color: white;
+}
+
+.catalog_title
+{
+    padding: 2%;
+    text-align: center;
+    color: #4A4846;
+    font-size: 250%;
+    text-shadow: 1px 0 0 #6a6a6a;
+    text-decoration: underline;
+}
+
+.catalog_list
+{
+    display: block;
+    margin: auto;
+    background: #404040;
+    width: 92%;
+    box-shadow: #afafaf 0 0 10px;
+    height: 85%;
+}
+
+.catalog_list::-webkit-scrollbar{
+    display: none;
+}
+
+.catalog_list_element
+{
+    background: #6a6a6a;
+    display: inline-table;
+    margin-left: 6%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 18%;
+}
+.product_price
+{
+    color: #72e584;
+}
+
+.catalog_element_name
+{
+    text-align: center;
+    color: white;
+    font-size: 100%;
+}
+.catalog_element_name_a
+{
+    color: white;
+    font-size: 100%;
+    text-decoration: none;
+}
+.catalog_element_name_a:hover
+{
+    color: white;
+    font-size: 100%;
+    text-decoration: underline;
+}
+.screen
+{
+    width: 100%;
+    display: inline-block;
+    background: #4A4846;
+}
+.product_name
+{
+    color: #afafaf;
+    text-align: center;
+    font-size: 300%;
+}
+.screen2
+{
+
+    width: 100%;
+    display: inline-block;
+
+}
+.product_img
+{
+    float: left;
+    width: 40%;
+}
+.character
+{
+    display: inline-block;
+    color: white;
+    width: 60%;
+}
+/**.screen .product_name
+{
+    border: 1px solid white;
+}**/
+.screen .product_price
+{
+    margin-left: 10%;
+    color: white;
+}
+.character .information_about_head
+{
+    font-size: 240%;
+    text-align: center;
+}
+.character .information_about
+{
+    font-style: italic;
+    width: 100%;
+}
+.character .information_char .ch_category
+{
+    width: 50%;
+}
+.ch_heading
+{
+
+    font-size: 240%;
+    text-align: center;
+}
+.ch_category
+{
+    text-align: center;
+    font-size: 150%;
+    text-decoration: underline;
+}
+.сh_type
+{
+    font-weight: bold;
+    font-size: 120%;
+    width: 40%;
+}
+.ch_input
+{
+    font-size: 100%;
+    width: 40%;
+    padding: 1%;
+}
+
+#inf_product
+{
+    background-color: #4A4846;
+    color: white;
+}
+
+.catalog_list_image
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+.catalog_list_image:hover
+{
+    opacity: 0.4;
+}
+.catalog_product_class
+{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.not_fined
+{
+    color: red;
+    text-align: center;
+}
+
